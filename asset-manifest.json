@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/recipeApp/static/css/main.6d211f9e.css",
+    "main.js": "/recipeApp/static/js/main.5dfe0eec.js",
+    "static/media/przepisk.jpg": "/recipeApp/static/media/przepisk.d8071ea8069ef27c9128.jpg",
+    "static/media/item.jpg": "/recipeApp/static/media/item.8b081258f55eae0530ca.jpg",
+    "static/media/pizza.jpg": "/recipeApp/static/media/pizza.e93d1555b199bc37be66.jpg",
+    "index.html": "/recipeApp/index.html",
+    "main.6d211f9e.css.map": "/recipeApp/static/css/main.6d211f9e.css.map",
+    "main.5dfe0eec.js.map": "/recipeApp/static/js/main.5dfe0eec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d211f9e.css",
+    "static/js/main.5dfe0eec.js"
+  ]
+}
