@@ -25,7 +25,7 @@ const Recipes: FC<Props> = ({ recipes }) => {
         <div className={styles.boxBack}>
           <Button
             onClick={() => {
-              navigate(`/`);
+              navigate(`/recipesApp`);
             }}
             className={styles.back}
           >
@@ -53,7 +53,7 @@ const Recipes: FC<Props> = ({ recipes }) => {
 
                   <Button
                     onClick={() => {
-                      navigate(`/recipes/${recipe.id}`);
+                      navigate(`/recipesApp/recipes/${recipe.id}`);
                     }}
                     className={styles.btn}
                   >

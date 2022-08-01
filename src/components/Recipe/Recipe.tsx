@@ -24,12 +24,12 @@ const Recipe: FC<Props> = ({ recipes, remove }) => {
   const removeRecipe = () => {
     setTimeout(() => {
       remove(id);
-      navigate("/recipes");
+      navigate("/recipesApp/recipes");
     }, 5000);
     toast("Usuwanie...");
   };
   const toEdit = () => {
-    navigate(`/recipes/${id}/editrecipe`);
+    navigate(`/recipesApp/recipes/${id}/editrecipe`);
   };
 
   return (
@@ -39,7 +39,7 @@ const Recipe: FC<Props> = ({ recipes, remove }) => {
         <Button onClick={toEdit}>Edytuj</Button>
         <Button
           onClick={() => {
-            navigate(`/recipes`);
+            navigate(`/recipesApp/recipes`);
           }}
           className={styles.back}
         >

@@ -25,7 +25,7 @@ const AddRecipe: FC<Props> = ({ add }) => {
     toast("Dodawanie...");
     setTimeout(() => {
       add(title, date, desc, ingredients);
-      navigate("/recipes");
+      navigate("/recipesApp/recipes");
     }, 5000);
   };
 
@@ -66,7 +66,7 @@ const AddRecipe: FC<Props> = ({ add }) => {
       <div className={styles.boxBack}>
         <Button
           onClick={() => {
-            navigate(`/`);
+            navigate(`/recipesApp`);
           }}
           className={styles.back}
         >

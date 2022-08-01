@@ -38,7 +38,7 @@ const EditRecipe: FC<Props> = ({ recipes, edit }) => {
     toast("Edytowanie...");
     setTimeout(() => {
       edit(id, newTitle, newIngredients, newDesc, newDate);
-      navigate(`/recipes/${id}`);
+      navigate(`/recipesApp/recipes/${id}`);
     }, 5000);
   };
   useEffect(() => {
@@ -92,7 +92,7 @@ const EditRecipe: FC<Props> = ({ recipes, edit }) => {
       <div className={styles.boxBack}>
         <Button
           onClick={() => {
-            navigate(`/recipes/${id}`);
+            navigate(`/recipesApp/recipes/${id}`);
           }}
           className={styles.back}
         >

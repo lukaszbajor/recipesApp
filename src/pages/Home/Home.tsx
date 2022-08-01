@@ -22,7 +22,7 @@ const Home: FC = () => {
           <Text className={styles.text}>Spawdź nasze przepisy!</Text>
           <Button
             onClick={() => {
-              navigate("/recipes");
+              navigate("/recipesApp/recipes");
             }}
             className={styles.xd}
           >
@@ -34,7 +34,7 @@ const Home: FC = () => {
           <Text className={styles.text}>Dodaj swój przepis!</Text>
           <Button
             onClick={() => {
-              navigate("/addrecipe");
+              navigate("/recipesApp/addrecipe");
             }}
             className={styles.xd}
           >
