@@ -1,0 +1,11 @@
+.box {
+  min-height: 60vh;
+}
+.info {
+  margin-top: 50px;
+  font-weight: 200;
+  text-align: center;
+}
+.text {
+  text-align: center;
+}

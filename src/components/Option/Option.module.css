@@ -1,0 +1,28 @@
+.option {
+  margin: 10px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../../../src/assets/images/pizza.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(115, 114, 114);
+  border-radius: 4px;
+  height: 300px;
+  width: 200px;
+  color: white;
+}
+.option button {
+  align-self: stretch;
+  padding: 5px;
+  background-color: rgb(25, 156, 77);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+.option:nth-child(2) {
+  background-image: url("../../../src/assets/images/przepisk.jpg");
+}

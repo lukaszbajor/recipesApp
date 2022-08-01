@@ -1,0 +1,49 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+.card {
+  padding: 15px;
+  width: 400px;
+  min-height: 500px;
+  flex-direction: column;
+  background-color: rgb(97, 92, 92);
+  border-radius: 4px;
+  color: white;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.boxBtns {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.boxBtns button {
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(25, 156, 77);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.date {
+  font-size: 14px;
+  font-weight: 200;
+  align-self: flex-start;
+}
+.ingredients span,
+.desc span {
+  font-weight: 700;
+}
+.ingredients,
+.desc {
+  align-self: flex-start;
+}
