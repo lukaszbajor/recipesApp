@@ -97,8 +97,6 @@ const App: FC = () => {
     newDesc: string,
     newDate: string
   ) => {
-    
-
     recipes.forEach((el) => {
       if (el.id === id) {
         el.title = newTitle;
@@ -114,17 +112,23 @@ const App: FC = () => {
       <Header />
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/recipes" element={<Recipes recipes={recipes} />} />
+          <Route path="/recipesApp" element={<Home />} />
           <Route
-            path="/recipes/:id"
+            path="/recipesApp/recipes"
+            element={<Recipes recipes={recipes} />}
+          />
+          <Route
+            path="/recipesApp/recipes/:id"
             element={<Recipe recipes={recipes} remove={removeRecipeFn} />}
           />
           <Route
-            path="/recipes/:id/editrecipe"
+            path="/recipesApp/recipes/:id/editrecipe"
             element={<EditRecipe recipes={recipes} edit={editRecipeFn} />}
           />
-          <Route path="/addrecipe" element={<AddRecipe add={addRecipeFn} />} />
+          <Route
+            path="/recipesApp/addrecipe"
+            element={<AddRecipe add={addRecipeFn} />}
+          />
         </Routes>
       </Router>
       <ToastContainer />
